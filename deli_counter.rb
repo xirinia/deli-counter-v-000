@@ -19,9 +19,10 @@ end
 
 def take_a_number(array, person)
   if array.size == 0
-  array.push(person)
-  puts "Welcome, #{person}. You are number #{(person.index(person))+1} in line."
-else
-  array.push(person)
-  puts "Welcome, #{person}. You are number #{(person.index(person))+1} in line."  
+    array.push(person)
+    puts "Welcome, #{person}. You are number #{(person.index(person))+1} in line."
+  else
+    array.push(person)
+    puts "Welcome, #{person}. You are number #{(person.index(person))+1} in line."  
+  end
 end
