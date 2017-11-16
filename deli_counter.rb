@@ -31,7 +31,7 @@ def now_serving(array)
   if array.size == 0
     puts "There is nobody waiting to be served!"
   else
-      puts "Currently serving #{(array.index(person))+1}"
+      puts "Currently serving #{(array.index(0))}"
       array.shift
   end
 end
