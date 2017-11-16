@@ -23,6 +23,6 @@ def take_a_number(array, person)
     puts "Welcome, #{person}. You are number #{(person.index(person))+1} in line."
   else
     array.push(person)
-    puts "Welcome, #{person}. You are number #{array.size+1} in line."
+    puts "Welcome, #{person}. You are number #{array.size} in line."
   end
 end
